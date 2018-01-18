@@ -7,7 +7,7 @@ z = 1
 until arr[i % arr.length][j] != arr[z % arr.length][j]
   i += 1
   z += 1
-  if arr[z % arr.length][j] == arr[z % arr.length][j]
+  if arr[i % arr.length][j] == arr[z % arr.length][j]
     j += 1
   end
 end
